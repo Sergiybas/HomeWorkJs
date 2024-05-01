@@ -33,12 +33,12 @@ const isFdmin = false;
 // console.log(message);
 
 // Завдання6....................................
-const pricePerDroid = 800;
-const orderedQuantity = 6;
-const deliveryFee = 50;
-const totalPrice = `${pricePerDroid*orderedQuantity+deliveryFee}`;
-const message = `"You ordered droids worth ${totalPrice} credits. Delivery( ${deliveryFee} credits) is included in total price "`;
-console.log(message);
+// const pricePerDroid = 800;
+// const orderedQuantity = 6;
+// const deliveryFee = 50;
+// const totalPrice = `${pricePerDroid*orderedQuantity+deliveryFee}`;
+// const message = `"You ordered droids worth ${totalPrice} credits. Delivery( ${deliveryFee} credits) is included in total price "`;
+// console.log(message);
 
 // Завдання7...........././././././././././////////////
 // function sayHi() {
@@ -55,10 +55,69 @@ console.log(message);
 // console.log(add(5, 10, 15));
 
 // Завдання 9..///////////////////////////////////////////////
-function add(a, b, c) {
-    return a + b + c;
-}
+// function add(a, b, c) {
+//     return a + b + c;
+// }
 
-console.log(add(15, 27, 10));
-console.log(add(10, 20, 30));
-console.log(add(5, 10, 15));
+// console.log(add(15, 27, 10));
+// console.log(add(10, 20, 30));
+// console.log(add(5, 10, 15));
+
+// Завдання10//////////////////////////////////////////////////////
+
+// function makeMessage(name,price) {
+//     let message = `"You picked ${name}, price per item is ${price} credits"`;
+//     console.log(message);
+// }
+// console.log(makeMessage('Radar', 6150));
+// console.log(makeMessage('Scanner', 3500));
+// console.log(makeMessage('Reactor', 8000));
+// console.log(makeMessage('Engine', 4070));
+
+// Завдання11////////////////////////////////////////////
+// function calculateTotalPrice(orderedQuantity, pricePerItem) {
+//     const totalPrice = (orderedQuantity * pricePerItem)
+//     return totalPrice;
+// }
+// console.log(calculateTotalPrice(5, 100));
+// console.log(calculateTotalPrice(8, 60));
+// console.log(calculateTotalPrice(3, 400));
+// console.log(calculateTotalPrice(1, 3500));
+// console.log(calculateTotalPrice(12, 70));
+
+// Завдання12////////////////////////////////////////////////
+
+// function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
+//     const totalPrice = (orderedQuantity * pricePerDroid + deliveryFee);
+//     const message = `"You ordered droids worth ${totalPrice} credits. Delivery ${deliveryFee} is included in total price."`;
+//     return message;
+// }
+// console.log(makeOrderMessage(2, 100, 50));
+// console.log(makeOrderMessage(4, 300, 100));
+// console.log(makeOrderMessage(10, 70, 200));
+
+// Завдання13//////////////////////////////////////////////////////////////////////////
+// function isAdult(age) {
+  
+//   const passed = age >= 18 ;
+
+//     return passed;
+// }
+// console.log(isAdult(20));
+// console.log(isAdult(14));
+// console.log(isAdult(8));
+// console.log(isAdult(37));
+
+// Завдання14///////////////////////////////////////////////////////
+
+function isValidPassword(password) {
+  const SAVED_PASSWORD = 'jqueryismyjam';
+  
+  const isMatch = SAVED_PASSWORD===password;
+
+  
+  return isMatch;
+}
+console.log(isValidPassword("mangodab3st"));
+console.log(isValidPassword("kiwirul3z"));
+console.log(isValidPassword('jqueryismyjam'));
