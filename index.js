@@ -110,14 +110,45 @@ const isFdmin = false;
 
 // Завдання14///////////////////////////////////////////////////////
 
-function isValidPassword(password) {
-  const SAVED_PASSWORD = 'jqueryismyjam';
+// function isValidPassword(password) {
+//   const SAVED_PASSWORD = 'jqueryismyjam';
   
-  const isMatch = SAVED_PASSWORD===password;
+//   const isMatch = SAVED_PASSWORD===password;
 
   
-  return isMatch;
+//   return isMatch;
+// }
+// console.log(isValidPassword("mangodab3st"));
+// console.log(isValidPassword("kiwirul3z"));
+// console.log(isValidPassword('jqueryismyjam'));
+
+// Для розвитку
+
+let name = prompt("you name");
+let old = prompt("Введіть кількість років");
+const nameOld = (`${name} : ${old}`);
+if (old >= 18) {
+  alert(`"Welkome" ${name}`);
+  let poll = prompt("Скільки разів на тиждень Ви вживаєте алкоголь. Варіанти: a-(Не вживаю), b-(1-3 рази), с-(Маже щодня)");
+  let resultPoll;
+  switch (poll) {
+    case "a":
+      resultPoll = "Ти скучний або хворий";
+      break;
+    case "b":
+      resultPoll = "Не здавайся ти можеш більше, я вірю в тебе";
+      break;
+     case "c":
+      resultPoll = "О чувак ось мій номер 0969428474 нам є про , що поговорити";
+      break;
+  
+    default:
+      alert("ВВедіть значення a , b або с");
+      break;
+          
+  }
+  alert(`${resultPoll}`)
 }
-console.log(isValidPassword("mangodab3st"));
-console.log(isValidPassword("kiwirul3z"));
-console.log(isValidPassword('jqueryismyjam'));
+else {
+  alert(`"Підрости" ${name}`);
+}
