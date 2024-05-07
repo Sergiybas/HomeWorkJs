@@ -98,7 +98,7 @@
 
 // Завдання13//////////////////////////////////////////////////////////////////////////
 // function isAdult(age) {
-  
+
 //   const passed = age >= 18 ;
 
 //     return passed;
@@ -112,17 +112,14 @@
 
 // function isValidPassword(password) {
 //   const SAVED_PASSWORD = 'jqueryismyjam';
-  
+
 //   const isMatch = SAVED_PASSWORD===password;
 
-  
 //   return isMatch;
 // }
 // console.log(isValidPassword("mangodab3st"));
 // console.log(isValidPassword("kiwirul3z"));
 // console.log(isValidPassword('jqueryismyjam'));
-
-
 
 // ///////////////////////////////////////////////////////////////////////////////
 // //////////////////////////////////////////////////////////////////////////////
@@ -181,7 +178,6 @@
 //     else {
 //         message = `"You ordered ${orderedQuantity} droids, you have ${customerCredits - priceOrder} credits left"`;
 //     }
-    
 
 //   return message;
 // }
@@ -335,7 +331,7 @@
 //     case "organization":
 //       price = 50;
 //      break;
-     
+
 //   }
 // return price;
 // }
@@ -372,7 +368,7 @@
 //     case "China":
 //       message = "Shipping to China will cost 100 credits";
 //       break;
-    
+
 //     case "Chile":
 //       message = "Shipping to Chile will cost 250 credits";
 //       break;
@@ -382,7 +378,7 @@
 //     case "Jamaica":
 //       message = "Shipping to Jamaica will cost 120 credits";
 //       break;
-  
+
 //     default:
 //       message = "Sorry, there is no delivery to your country";
 //       break;
@@ -399,13 +395,13 @@
 // Завдання 16........///////////////////////////////////////////////////
 
 // function getNameLength(name) {
-//   const message = `Name ${name} is ${name .length} characters long`;
+//   const message = `Name ${name} is ${name.length} characters long`;
 //   return message;
 // }
-// console.log(getNameLength("Poly"));
-// console.log(getNameLength("Harambe"));
-// console.log(getNameLength("Billy"));
-// console.log(getNameLength("Joe"));
+// console.log(getNameLength('Poly'));
+// console.log(getNameLength('Harambe'));
+// console.log(getNameLength('Billy'));
+// console.log(getNameLength('Joe'));
 
 // Завдання 17........../////////////////////////////////////////
 
@@ -420,7 +416,6 @@
 // console.log(lastElement.slice(-1));
 
 // Завдання 18.........../////////////////////////////
-
 
 // function getSubstring(string, length) {
 //   const substring = string.slice(0,length);
@@ -457,7 +452,6 @@
 
 // function normalizeInput(input) {
 //     const normalizedInput = input.toLowerCase();
-    
 
 //   return normalizedInput;
 // }
@@ -481,26 +475,18 @@
 
 // Завдання 22...///////////////////////////////////////////////////////////
 
-function checkForSpam(message) {
-  let result;
-    message = message.toLowerCase();
-    result = message.includes("spam")||message.includes("sale");
-        
-    
-  return result;
-}
-console.log(checkForSpam("Latest technology news"));
-console.log( checkForSpam("JavaScript weekly newsletter"));
-console.log(checkForSpam("Get best sale offers now!"));
-console.log(checkForSpam("Amazing SalE, only tonight!"));
-console.log(checkForSpam("Trust me, this is not a spam message"));
-console.log(checkForSpam("Get rid of sPaM emails. Our book in on sale!"));
-console.log(checkForSpam("[SPAM] How to earn fast money?"));
+// function checkForSpam(message) {
+//   let result;
+//   message = message.toLowerCase();
+//   result = message.includes('spam') || message.includes('sale');
 
-
-
-
-
-
- 
-
+//   return result;
+// }
+// console.log(checkForSpam('Latest technology news'));
+// console.log(checkForSpam('JavaScript weekly newsletter'));
+// console.log(checkForSpam('Get best sale offers now!'));
+// console.log(checkForSpam('Amazing SalE, only tonight!'));
+// console.log(checkForSpam('Trust me, this is not a spam message'));
+// console.log(checkForSpam('Get rid of sPaM emails. Our book in on sale!'));
+// console.log(checkForSpam('[SPAM] How to earn fast money?'));
+// console.log('checkForSpam::: ', checkForSpam);
