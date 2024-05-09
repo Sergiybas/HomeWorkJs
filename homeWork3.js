@@ -73,7 +73,8 @@
 
 // /////////////////..9..///////////////////////////
 // function getExtremeElements(array) {
-//     return [array[0], array[array.length - 1]];
+//    
+// return [array[0], array[array.length - 1]];
 // }
 // console.log(getExtremeElements([1, 2, 3, 4, 5]));
 // console.log(getExtremeElements(['Earth', 'Mars', 'Venus']));
@@ -138,18 +139,18 @@
 // console.log(allClients);
  
 // ///////////////..16..////////////////////////////////////
-function makeArray(firstArray, secondArray, maxLength) {
-  let result = firstArray.concat(secondArray);
-  if (result.length > maxLength) {
-    result = result.slice(0, maxLength);
-    return result;
-  }
+// function makeArray(firstArray, secondArray, maxLength) {
+//   let result = firstArray.concat(secondArray);
+//   if (result.length > maxLength) {
+//     result = result.slice(0, maxLength);
+//     return result;
+//   }
 
-  return result ;
-}
-console.log(makeArray(['Mango', 'Poly'], ['Ajax', 'Chelsea'], 3));
-console.log(makeArray(['Mango', 'Poly', 'Houston'], ['Ajax', 'Chelsea'], 4));
-console.log(makeArray(['Mango'], ['Ajax', 'Chelsea', 'Poly', 'Houston'], 3));
-console.log(makeArray(['Earth', 'Jupiter'], ['Neptune', 'Uranus'], 2));
-console.log(makeArray(['Earth', 'Jupiter'], ['Neptune', 'Uranus'], 4)
-);
+//   return result ;
+// }
+// console.log(makeArray(['Mango', 'Poly'], ['Ajax', 'Chelsea'], 3));
+// console.log(makeArray(['Mango', 'Poly', 'Houston'], ['Ajax', 'Chelsea'], 4));
+// console.log(makeArray(['Mango'], ['Ajax', 'Chelsea', 'Poly', 'Houston'], 3));
+// console.log(makeArray(['Earth', 'Jupiter'], ['Neptune', 'Uranus'], 2));
+// console.log(makeArray(['Earth', 'Jupiter'], ['Neptune', 'Uranus'], 4)
+// );
