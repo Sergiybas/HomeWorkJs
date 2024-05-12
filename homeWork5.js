@@ -250,3 +250,93 @@
 // console.log(countTotalSalary({}));
 // console.log(countTotalSalary({ mango: 100, poly: 150, alfred: 80 }));
 // console.log(countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 }));
+
+// ///////////....17....///////////////////
+// const colors = [
+//   { hex: '#f44336', rgb: '244,67,54' },
+//   { hex: '#2196f3', rgb: '33,150,243' },
+//   { hex: '#4caf50', rgb: '76,175,80' },
+//   { hex: '#ffeb3b', rgb: '255,235,59' },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// for (const color of colors) {
+//   hexColors.push(color.hex);
+//   rgbColors.push(color.rgb);
+// }
+
+// console.log(hexColors);
+// console.log(rgbColors);
+
+// ////////...18...////////////////////////
+
+// const products = [
+//   { name: 'Radar', price: 1300, quantity: 4 },
+//   { name: 'Scanner', price: 2700, quantity: 3 },
+//   { name: 'Droid', price: 400, quantity: 7 },
+//   { name: 'Grip', price: 1200, quantity: 9 },
+// ];
+
+// function getProductPrice(productName) {
+//   let message = 'null';
+//   for (const product of products) {
+//     if (productName === product.name) {
+//       message = product.price;
+//     }
+//   }
+//   return message;
+// }
+// console.log(getProductPrice('Radar'));
+// console.log(getProductPrice('Grip'));
+// console.log(getProductPrice('Scanner'));
+// console.log(getProductPrice('Droid'));
+// console.log(getProductPrice('Engine'));
+
+// ////......19....//////////////////////
+// const products = [
+//   { name: 'Radar', price: 1300, quantity: 4 },
+//   { name: 'Scanner', price: 2700, quantity: 3 },
+//   { name: 'Droid', price: 400, quantity: 7 },
+//   { name: 'Grip', price: 1200, quantity: 9 },
+// ];
+
+// function getAllPropValues(propName) {
+//   let name = [];
+//   for (const product of products) {
+//     if (propName in product) {
+//       name.push(product[propName]);
+//     }
+//   }
+//   return name;
+// }
+// console.log(getAllPropValues('name'));
+// console.log(getAllPropValues('quantity'));
+// console.log(getAllPropValues('price'));
+// console.log(getAllPropValues('category'));
+
+// ///////////....20...///////////////////
+
+// const products = [
+//   { name: 'Radar', price: 1300, quantity: 4 },
+//   { name: 'Scanner', price: 2700, quantity: 3 },
+//   { name: 'Droid', price: 400, quantity: 7 },
+//   { name: 'Grip', price: 1200, quantity: 9 },
+// ];
+
+// function calculateTotalPrice(productName) {
+//     let totalPrice = 0;
+    
+//   for (const product of products) 
+//     if (productName === product.name){
+//     totalPrice = product.price * product.quantity;
+//     break;
+//   }
+//   return totalPrice;
+// }
+// console.log(calculateTotalPrice('Blaster'));
+// console.log(calculateTotalPrice('Radar'));
+// console.log(calculateTotalPrice('Droid'));
+// console.log(calculateTotalPrice('Grip'));
+// console.log(calculateTotalPrice('Scanner'));
+
