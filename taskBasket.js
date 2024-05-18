@@ -45,7 +45,9 @@ const card = {
     }
     
   },
-  decreaseQuantity(productName) {},
+  decreaseQuantity(productName) {
+    
+  },
 };
 console.log(card.getItems());
 card.add({ name: '🍎', price: 50 });
